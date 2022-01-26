@@ -1,0 +1,75 @@
+body {
+margin:0;
+padding-top: 800px;
+text-align: center;
+}
+.profile {
+border-radius: 50%;
+}
+#Welcome {
+position: absolute;
+bottom: 0px;
+background: linear-gradient(#77a1d1 0%, #28415e 100%);
+display: table; width: 100%; height: 100%;
+}
+h1 {
+font-family: Monaco;
+color: white;
+font-size: 50px;
+}
+h2 {
+font-family: monospace;
+color: whitesmoke;
+font-size: 25px;
+}
+#bio {
+font-family: Gill Sans;
+}
+#color {
+color: black;
+}
+.line {
+height: 6px;
+background-color:blanchedalmond;
+width: 100px;
+margin: 8px auto;
+}
+.parallax-inner {
+display: table-cell;
+vertical-align: middle;
+}
+.menu {
+width: 100%;
+margin-top: 0px;
+position: fixed;
+top:10px;
+right:30px;
+z-index:10;
+}
+.links {
+float: right;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+font-family: Impact;
+font-size: 20px;
+display: inline;
+}
+#name {
+font-size: 50px;
+font-family: 'Bebas Neue', cursive;
+}
+.links:hover {
+font-size: 25px;
+text-decoration: underline overline;
+}
+#Contact {
+background-color: whitesmoke;
+}
+hr {
+height: 6px;
+background-color: blanchedalmond;
+width: 100px;
+margin: 8px auto;
+}
